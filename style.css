@@ -1,0 +1,207 @@
+:root{
+    --primary-color:purple;
+    --dark-gray:#6B7280;
+    --off-white:#FAF9F6;
+
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+}
+/* container */
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+    /* padding:0rem 1rem; -----> top/bottom right/left */
+}
+
+
+.container-center{
+    max-width:700px;
+    margin:auto;
+}
+hr{
+    margin:2rem 0rem;
+}
+
+/* links */
+.link{
+    text-decoration:none;
+    /* to remove underline of link */
+    padding:0.5rem 1rem;
+    cursor:pointer;
+}
+.link:hover{
+    opacity:0.8;
+    font-weight:bold;
+    font-size:large;
+    
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+
+}
+
+.link-secondary{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+
+}
+.link-secondary:hover{
+    background-color:var(--primary-color);
+    color:white;
+    opacity:0.8;
+    font-weight:bold;
+}
+/* lists */
+.list_non-bullet{
+    list-style:none;
+
+}
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
+
+/* navigation */
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+    padding:1rem;
+}
+.navigation .nav-brand{
+    font-weight:bold;
+    font-size:1.1rem;
+    
+}
+
+.navigation .nav-pills{
+    text-align:right;
+
+}
+
+/* if we are active in some link of the navigation bar --> by default home is active */
+
+.navigation .active-link{
+    font-weight:bold;
+}
+
+.navigation .link{
+    color:white;
+}
+/* header */
+.hero{
+    padding:2rem;
+    text-align:center;
+
+   
+}
+
+.hero .hero-img{
+    max-width:350px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading{
+    color:var(--dark-gray);
+    padding-top:1rem;
+    text-align:center;
+    font-size:3rem;
+
+}
+.hero .hero-heading .heading-inverted,.heading-inverted{
+    color:var(--primary-color);
+    font-weight:bold;
+}
+/* section */
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align:center;
+    
+}
+.ow{
+    background-color:var(--off-white);
+}
+.footer{
+    background-color:var(--primary-color);
+    padding:2rem 0rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius:1rem;
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start:0  ;
+}
+.footer-header{
+    font-weight:bold;
+    text-align:left;
+    padding-left:1rem;
+    font-size: 1.5rem;
+}
+
+    .tech-stack-container{
+        display:flex;
+        justify-content:space-between ;
+        width:40rem;
+        
+    }
+    .flex-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+
+    }
+    
+    .link-box{
+        border-style:solid;
+        border-radius:2rem;
+        padding:0.8rem 1rem;
+        margin:0rem 3rem;
+        
+    }
+    .project-date{
+        color:var(--primary-color);
+        font-weight:bold;
+        font-size:large;
+        
+    }
+    .project-header{
+        margin:10px;
+    }
+    
+    .project-list{
+        
+        text-align:center;
+        list-style:none;
+        max-width:700px;
+        margin:auto;
+        margin-bottom:2rem;
+        
+    }
+    .project-desc{
+        margin:2rem 2rem;    
+    }
+
+    
+    .list-container{
+        
+        border-style:solid;
+        border-color:var(--primary-color);
+        border-radius:20rem;
+        padding:3rem 3rem;
+    }
+    
+
+
+

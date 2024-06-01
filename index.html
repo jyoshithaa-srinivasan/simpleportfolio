@@ -1,65 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Jyoshithaa/home</title>
 
 </head>
 <body>
-    <h1>jyoshithaa's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my
-        projects look good and consistent. </p>
+    <nav class="navigation">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list_non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link active-link">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="projects.html" class="link">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="blogs.html" class="link">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img src="images/web_dev_img.svg" class="hero-img">
+        <h1 class="hero-heading">JYOSHITHAA J S <span class="heading-inverted"><br>Computer Science Student</span></h1>
 
-    <hr>
+    </header>
 
-    <h2>@typography</h2>
+    <section class="section">
+            <div class="container-center ow">
+                <h1>Technologies</h1>
+                <div class="flex-container">
+                    <div class="tech-stack-container">
+                        <p class="tech-stack"><strong>Html5</strong></p>
+                        <p class="tech-stack"><strong>CSS</strong></p>
+        
+                    </div>
+                    <div class="tech-stack-container">
+                        <p class="tech-stack"><strong>Javascript</strong></p>
+                        <p class="tech-stack"><strong>Git</strong></p>
+        
+                    </div>
+                    <div class="tech-stack-container">
+                        <p class="tech-stack"><strong>Java</strong></p>
+                        <p class="tech-stack"><strong>Python</strong></p>
+        
+                    </div>
+                    <div class="tech-stack-container">
+                        <p class="tech-stack"><strong>C/C++</strong></p>
+                        <p class="tech-stack"><strong>Sql</strong></p>
+        
+                    </div>
 
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text.This is free flowing like a paragraph.</p>
-    <small>This is relatively smaller text</small>
+                </div>
+    </section>
 
-    <hr>
+    <section class="section">
+        <div class="container-center">
+            <h1>Projects</h1>
+            <p>Here are some things I have built so far, each demonstrating  my skills and expertise in creating dynamic, user-friendly, and visually appealing web applications. Explore the details below to see how I've brought these projects to life and how they contribute to my continuous growth in the field.<br><br></p>
+            <div style="text-align:center;"><a href="projects.html" class="link link-primary">CLICK TO BROWSE MY PROJECTS</a></div>
 
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div>this is a fluid conatiner and it will go till the end of the page</div>
+        </div>
+        
+    </section>
 
-    <h3>center conatiner</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <section class="section">
+        <div class="container-center ow">
+            <h1>Education</h1>
+            <p>I am currently pursuing an Integrated M.Tech in Computer Science and Engineering at the prestigious <span class="heading-inverted">Vellore Institute of Technology</span>, where I have maintained an impressive CGPA of 9.13. My academic journey at VIT, spanning from 2022 to the anticipated completion in 2027, has been marked by a rigorous curriculum and a commitment to excellence. <br><br><br>Prior to this, I completed my schooling at <span class="heading-inverted">Vailankanni Public School (cbse)</span>, achieving a stellar 92% in my Grade 12 examinations. This foundation has equipped me with a robust understanding of core concepts, paving the way for my advanced studies and research in the field of computer science.</p>
 
-    <hr>
-    <h2>@Links</h2>
-    <a href="https://google.com">Primary link</a>
-    <a href="/">Secondary link</a>
+        </div>
+        
+    </section>
 
-    <hr>
-    
-    <h2>@Lists</h2>
-    <h3>unordered list</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
+    <section class="section">
+        <div class="container-center">
+            <h1>Academic Excellence</h1>
+            <p>Acknowledged for outstanding academic performance, I was presented with a prestigious <span class="heading-inverted">merit certificate during my first year at Vellore Institute of Technology, commemorating a remarkable CGPA of 9.5</span>.<br><br>
 
-    <h3>unordered inline list</h3>
-    <ul>
-        <li>InLine Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+                During my secondary education, I achieved remarkable results, securing a <span class="heading-inverted"> 92% in the 12th-grade board examinations</span>, positioning fourth across the school.Additionally, I earned recognition as the <span class="heading-inverted">top achiever in Computer Science</span>.<br><br> Furthermore, in the 10th-grade board examinations, I attained an impressive 95%, earning the title of <span class="heading-inverted">school runner-up</span>.<br><br></p>
+            <div style="text-align:center;"><a href="/" class="link link-primary">CHECK OUT MY ACHIEVEMENTS</a></div>
 
-    </ul>
+        </div>
+        
+    </section>
 
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
+    <footer class="footer">
+        <div class="footer-header">Let's Work Together !</div>
+        <ul class="social-links list_non-bullet">
+            <li class="list-item-inline link-box "><a href="https://www.linkedin.com/in/jyoshithaasrinivasan" class="link link-primary">LinkedIn</a></li>
+            <li class="list-item-inline link-box"><a href="https://github.com/jyoshithaa-srinivasan" class="link link-primary">GitHub</a></li>
+            <li class="list-item-inline link-box "><a href="/" class="link link-primary">Twitter</a></li>
+            
+        </ul>
+    </footer>
 
-
-    
 </body>
 </html>
